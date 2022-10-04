@@ -1,0 +1,41 @@
+h1{
+    color: purple;
+    text-align: center;
+    font-size: ;
+    font-weight: bold;
+}
+h2{ 
+    color: purple ;
+    text-align: center;
+    justify-content: baseline;
+
+    
+}
+div{
+    text-align: center;
+    display: grid;
+    grid-row: 20px;
+    justify-items: center;
+    grid-template-areas: 
+    "header headed header"
+    "advert content content"
+    "advert footer footer";
+    grid-template-rows: auto auto auto;
+    grid-template-columns:auto auto auto ;
+    column-gap: 25px;
+ }
+
+p{
+    color: purple ;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500 ;
+
+}
+
+body {
+    background-color: lightseagreen;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 18px;
+    font-weight: 200px;
+}
